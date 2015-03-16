@@ -1,0 +1,207 @@
+header{
+	background: #56D600;
+	border: 4px solid #56D600;
+	border-radius: 120px 0px;
+	box-shadow: inset 0px 0px 30px #113602, 10px 10px 20px #0D3A05; /*x, y, alfa*/
+	color: #30B1FD;
+	margin: 15px auto;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 5px #113602;
+	width: 300px;	
+}
+
+body
+{
+	cursor: url('personalizado.cur'), auto;
+	font-family: 'Dancing Script', cursive;
+	background-image:url('../img/palm.png'),url('../img/palm.png') ,url('../img/madagascar.jpg') ;
+	background-position: 35% top,65%  top, center top;
+	background-repeat:no-repeat, no-repeat, no-repeat;
+	color: green;
+}
+img
+{
+	vertical-align: middle;
+}
+
+.menu
+{
+	margin: 10px auto;/*ubica los botones en el centro*/
+	text-align: center;
+}
+.menu li
+{
+	display: inline-block;
+	line-height: 35px; /*Superior*/
+	margin: 10px;
+}
+
+.menu li a
+{
+	border-radius: 15px;
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(255,255,255, 0.8);
+	font: bold 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 15px 50px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+	
+}
+.face{
+	background: -webkit-linear-gradient(top, 
+		rgba(117,129,232,1) 0%,
+		rgba(90,103,217,1) 24%,
+		rgba(44,61,207,1) 50%,
+		rgba(90,103,217,1) 79%,
+		rgba(117,129,232,1)100%);
+}
+.face:hover{
+	background: -webkit-linear-gradient(top, 
+		rgba(167,176,227,1) 0%,
+		rgba(117,129,232,1) 24%,
+		rgba(90,103,217,1) 50%,
+		rgba(117,129,232,1) 79%,
+		rgba(167,176,227,1)100%);
+}
+.face:active{
+	background: -webkit-linear-gradient(top, 
+		rgba(125,207,133,1) 0%,
+		rgba(94,186,103,1) 24%,
+		rgba(70,158,79,1) 50%,
+		rgba(94,186,103,1) 79%,
+		rgba(125,207,133,1)100%);
+}
+.twit{
+	background: -webkit-linear-gradient(top, 
+		rgba(85,156,240,1) 0%,
+		rgba(48,138,245,1) 24%,
+		rgba(0,117,255,1) 50%,
+		rgba(48,138,245,1) 79%,
+		rgba(85,156,240,1)100%);
+}
+.twit:hover{
+	background: -webkit-linear-gradient(top, 
+		rgba(118,183,230,1) 0%,
+		rgba(80,168,232,1) 24%,
+		rgba(34,150,235,1) 50%,
+		rgba(80,168,232,1) 79%,
+		rgba(118,183,230,1)100%);
+}
+.twit:active{
+	background: -webkit-linear-gradient(top, 
+		rgba(245,226,126,1) 0%,
+		rgba(250,225,94,1) 24%,
+		rgba(252,222,62,1) 50%,
+		rgba(250,225,94,1) 79%,
+		rgba(245,226,126,1)100%);
+}
+.git{
+	background: -webkit-linear-gradient(top, 
+		rgba(136,76,196,1) 0%,
+		rgba(115,44,186,1) 24%,
+		rgba(98,10,186,1) 50%,
+		rgba(115,44,186,1) 79%,
+		rgba(136,76,196,1)100%);
+}
+.git:hover{
+	background: -webkit-linear-gradient(top, 
+		rgba(155,104,207,1) 0%,
+		rgba(136,76,196,1) 24%,
+		rgba(115,44,186,1) 50%,
+		rgba(136,76,196,1) 79%,
+		rgba(155,104,207,1)100%);
+}
+.git:active{
+	background: -webkit-linear-gradient(top, 
+		rgba(143,109,84,1) 0%,
+		rgba(122,88,63,1) 24%,
+		rgba(92,62,40,1) 50%,
+		rgba(122,88,63,1) 79%,
+		rgba(143,109,84,1)100%);
+}
+.yout{
+	background: -webkit-linear-gradient(top, 
+		rgba(237,132,132,1) 0%,
+		rgba(232,103,103,1) 24%,
+		rgba(237,37,37,1) 50%,
+		rgba(232,103,103,1) 79%,
+		rgba(237,132,132,1)100%);
+}
+.yout:hover{
+	background: -webkit-linear-gradient(top, 
+		rgba(227,171,171,1) 0%,
+		rgba(217,146,146,1) 24%,
+		rgba(232,103,103,1) 50%,
+		rgba(217,146,146,1) 79%,
+		rgba(227,171,171,1)100%);
+}
+.yout:active{
+	background: -webkit-linear-gradient(top, 
+		rgba(135,129,129,1) 0%,
+		rgba(107,95,95,1) 24%,
+		rgba(15,14,14,1) 50%,
+		rgba(107,95,95,1) 79%,
+		rgba(135,129,129,1)100%);
+}
+#biografia
+{
+	margin: 0 auto;
+	width: 700px;
+	box-shadow: 10px 10px 20px black;
+	border: 2px solid gray;
+	border-radius: 50px;
+	box-shadow: 10px 10px 20px black;
+	padding: 5px 15px;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+}
+.icono
+{
+    background-image: url(../img/spritesheet.png);    
+	background-repeat: no-repeat;
+}
+.facebook 
+{
+	width: 40px;
+	height: 40px;
+	background-position: -5px -5px;
+}
+
+.github 
+{    
+	width: 40px;
+   	height: 40px;
+   	background-position: -55px -5px;
+}
+
+.twitter 
+{    
+	width: 40px;
+   	height: 40px;
+	background-position: -5px -55px;
+}
+
+.youtube
+{
+  	width: 40px;
+  	height: 40px;
+    background-position: -55px -55px;
+}
+@media screen and (max-width: 500px) {
+    html
+    {
+    	border: 2px solid blue;
+    	width: 70%;
+    	border-radius: 20px;
+    }
+}
+/*
+@media screen and (max-width: 300px) {
+    body 
+    {
+       background: #cdeb8e; /* Old browsers */
+       /*background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+
+    }
+}*/
